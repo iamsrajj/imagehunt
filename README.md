@@ -1,6 +1,6 @@
 <div align="center">
 
-![Image Hunt Logo](img/logo.png)
+![Image Hunt](img/logo.png)
 
 # Image Hunt - Search Better Image
 
@@ -18,19 +18,19 @@ Image Hunt by Infean LLC is a cutting-edge image search platform that empowers u
 
 ## Usage
 
-- Go to the [Image Hunt website](#).
+- Go to the [Image Hunt](https://imagehunt.infean.co/).
 - Enter a search keyword in the search box.
 - Click the "Search" button.
 - Browse and select images that suit your project.
 
 ## Credits
 
-- Infean LLC - [Website](https://infean.com)
-- Unsplash - [Website](https://unsplash.com)
+- Infean LLC - [infean.com](https://infean.com)
+- Unsplash - [unsplash.com](https://unsplash.com)
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache License 2.0. See the [LICENSE](LICENSE) file for details.
 
 ## Get in Touch
 
