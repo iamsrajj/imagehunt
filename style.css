@@ -1,0 +1,259 @@
+body {
+  background-image: url("img/bg.png");
+  background-repeat: repeat-y;
+  background-size: cover;
+  font-family: "Ubuntu", sans-serif !important;
+  height: 100vh;
+}
+
+.search {
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  display: inline-block;
+}
+
+.img {
+  max-width: 70px;
+  height: auto;
+  display: inline-block;
+  margin-right: 5px;
+  margin-top: -20px;
+  vertical-align: middle;
+}
+
+form {
+  width: 90%;
+  max-width: 600px;
+  margin: auto;
+  height: 60px;
+  background: rgb(34, 46, 95);
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+}
+
+form input {
+  flex: 1;
+  height: 100%;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: #fff;
+  font-size: 18px;
+  padding: 0 30px;
+}
+
+form button {
+  padding: 0 35px;
+  height: 100%;
+  background: rgb(12, 25, 80);
+  color: #fff;
+  font-size: 22px;
+  border: 0;
+  outline: 0;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  cursor: pointer;
+}
+
+::placeholder {
+  color: #fff;
+  font-size: 18px;
+}
+
+#show-more-btn {
+  background: rgb(12, 25, 80);
+  color: #fff;
+  border: 0;
+  outline: 0;
+  font-size: 22px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin: 10px auto 100px;
+  cursor: pointer;
+  display: none;
+}
+
+#search-result {
+  width: 90%;
+  margin: 70px auto 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
+}
+
+#search-result img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.more {
+  margin-bottom: 20px;
+}
+
+.footer-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+  margin: 5px 0;
+}
+
+footer {
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+.line {
+  border: 0;
+  border-top: 3px solid #999; /* You can adjust the color and style */
+  margin: 25px 50px; /* Adjust the margin as needed */
+}
+
+.link {
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+}
+
+.left,
+.right {
+  flex: 1;
+}
+
+/* Mobile Styles (for screens up to 768px) */
+@media screen and (max-width: 768px) {
+  body {
+    background-image: url("img/bg.png"); /* Use a different background image for mobile */
+    background-repeat: repeat-y;
+    background-size: cover;
+    font-family: "Ubuntu", sans-serif !important;
+    height: 100vh;
+  }
+
+  /* Search Bar Styles for Mobile */
+  .search {
+    font-size: 24px;
+    color: white;
+  }
+
+  .img {
+    max-width: 50px; /* Adjust image size for mobile */
+    height: auto;
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: -20px;
+    vertical-align: middle;
+  }
+
+  form {
+    width: 90%;
+    max-width: 400px; /* Adjust form width for mobile */
+    margin: auto;
+    height: 60px;
+    background: rgb(34, 46, 95);
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+  }
+
+  form input {
+    flex: 1;
+    height: 100%;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    color: #fff;
+    font-size: 16px; /* Adjust font size for mobile */
+    padding: 0 20px; /* Adjust padding for mobile */
+  }
+
+  form button {
+    padding: 0 25px; /* Adjust button padding for mobile */
+    height: 100%;
+    background: rgb(12, 25, 80);
+    color: #fff;
+    font-size: 18px; /* Adjust font size for mobile */
+    border: 0;
+    outline: 0;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+  }
+
+  /* More Button Styles for Mobile */
+  #show-more-btn {
+    background: rgb(12, 25, 80);
+    color: #fff;
+    border: 0;
+    outline: 0;
+    font-size: 18px; /* Adjust font size for mobile */
+    padding: 10px 20px; /* Adjust button padding for mobile */
+    border-radius: 4px;
+    margin: 10px auto 50px; /* Adjust margin for mobile */
+    cursor: pointer;
+    display: none;
+  }
+
+  /* Search Results Grid for Mobile */
+  #search-result {
+    width: 90%;
+    margin: 30px auto 20px; /* Adjust margin for mobile */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px; /* Adjust grid gap for mobile */
+  }
+
+  #search-result img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+  /* Footer Styles for Mobile */
+  .footer-text {
+    display: flex;
+    justify-content: center; /* Center footer text for mobile */
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin: 5px 0;
+  }
+
+  footer {
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+
+  footer p {
+    margin: 5px 0;
+  }
+
+  .line {
+    border: 0;
+    border-top: 3px solid #999; /* You can adjust the color and style */
+    margin: 25px 0; /* Adjust the margin as needed */
+  }
+
+  .link {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+  }
+
+  .left,
+  .right {
+    flex: 1;
+  }
+}
